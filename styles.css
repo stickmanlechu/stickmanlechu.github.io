@@ -1,6 +1,6 @@
 h1
 {
-  color: #686868 !important;
+  color: #686868;
   font-size: 3em;
   margin-bottom: 0.5em;
   font-family: 'Limelight', sans-serif;
@@ -16,22 +16,33 @@ h2
     vertical-align: baseline;
 }
 
-body
+html,body
 {
     height: 100%;
-    margin: 0;
-    color: #222222;
-    font-size: 22px;
     font-family: 'Poiret One', sans-serif;
-    display: block;
-    max-width: 640px;
-    margin: 3em auto;
 }
 
-.content img
+.container
 {
-    max-width: 150px;
-    vertical-align: bottom;
+    min-height: 100%;
+    position: relative;
+    max-width: 640px;
+    color: #222222;
+    font-size: 22px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -30px;
+}
+
+.container:after
+{
+    content: "";
+    display: block;
+}
+
+.site-footer, .container:after
+{
+    height: 30px;
 }
 
 .content p
@@ -92,20 +103,11 @@ a:hover
     color: #00aced;
 }
 
-.footer
+.site-footer
 {
     color: #aaa;
     text-shadow: #fff 0 1px 0;
     font-size: 14px;
-  	text-align: center;
-}
-
-.footer a
-{
-    color: #aaa;
-}
-
-.footer a:hover
-{
-      color: #0881B3;
+    text-align: center;
+    width: 100%;
 }
