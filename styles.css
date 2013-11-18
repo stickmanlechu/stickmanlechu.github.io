@@ -1,3 +1,15 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,body
+{
+    height: 100%;
+    font-family: 'Poiret One', sans-serif;
+}
+
 h1
 {
   color: #686868;
@@ -14,12 +26,6 @@ h2
     font-weight: 500;
     margin: 0;
     vertical-align: baseline;
-}
-
-html,body
-{
-    height: 100%;
-    font-family: 'Poiret One', sans-serif;
 }
 
 .container
