@@ -5,7 +5,7 @@ h1
   margin-bottom: 0.5em;
   font-family: 'Limelight', sans-serif;
   font-weight: 400;
-  text-align: right;
+  text-align: center;
 }
 
 h2
@@ -64,48 +64,32 @@ a:hover
 {
     margin: 1em auto;
     height: 60px;
+    text-align: center;
 }
 
 .contact a
 {
-    float: right;
-    display: block;
-    height: 60px;
-    width: 60px;
-    margin-left: 1em;
+    color: #686868
+}
+
+.contact a:hover
+{
+    border-bottom: 1px solid rgba(0,0,0,0);
 }
 
 #linkedin:hover
 {
-    background-position: 0 -70px;
-    border-bottom: 1px solid rgba(0,0,0,0);
+    color: #007bb6;
 }
 
 #github:hover
 {
-    background-position: 0 -70px;
-    border-bottom: 1px solid rgba(0,0,0,0);
+    color: #000000;
 }
 
 #twitter:hover
 {
-    background-position: 0 -70px;
-    border-bottom: 1px solid rgba(0,0,0,0);
-}
-
-#linkedin
-{
-    background: url("images/linkedin.png");
-}
-
-#github
-{
-    background: url("images/github.png");
-}
-
-#twitter
-{
-    background: url("images/twitter.png");
+    color: #00aced;
 }
 
 .footer
