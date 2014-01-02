@@ -12,12 +12,13 @@ html,body
 
 h1
 {
-  color: #686868;
-  font-size: 3em;
-  margin-bottom: 0.5em;
-  font-family: 'Limelight', sans-serif;
-  font-weight: 400;
-  text-align: center;
+    color: #686868;
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    font-family: 'Limelight', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 0.2em;
 }
 
 h2
