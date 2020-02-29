@@ -59,6 +59,24 @@ h2
     vertical-align: middle;
 }
 
+ul {
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    list-style: none;
+    vertical-align: top;
+    margin-left: 1em;
+}
+
+ul > li
+{
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: px;
+}
+
 p
 {
     margin: 0 0 1.5em;
