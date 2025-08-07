@@ -67,21 +67,6 @@ a:hover {
     transition-property: border;
 }
 
-.contact {
-    margin: 1em auto;
-    height: 60px;
-    text-align: center;
-}
-
-.contact a {
-    color: #686868
-}
-
-.contact a:hover {
-    border-bottom: 1px solid rgba(0,0,0,0);
-    color: #0881B3;
-}
-
 .site-footer {
     color: #aaa;
     text-shadow: #fff 0 1px 0;
@@ -97,5 +82,24 @@ a:hover {
     }
     .container {
         color: #DEDEDE;
+    }
+}
+
+.socials .contact a {
+    display: inline-flex;
+    align-items: center;
+    gap: .4em;
+    text-decoration: none;
+}
+
+.socials .contact .fa-stack{
+    font-size: 0.8em;
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        padding-left: 10px;
+        padding-right: 10px;
+        box-sizing: border-box;
     }
 }
